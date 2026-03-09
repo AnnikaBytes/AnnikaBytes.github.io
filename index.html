@@ -1,64 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>Annika's Website — Home</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- Fonts (optional) -->
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Manrope:wght@400;600&display=swap" rel="stylesheet">
-    <!-- Your site styles -->
-    <link rel="stylesheet" href="styles.css">
-  </head>
+<head>
+  <meta charset="utf-8" />
+  <title>Annika's Website — Home</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <body>
-   <nav class="navbar" aria-label="Primary">
-      <h1 class="AY"><a href="index.html">Annika Yaworski</a></h1>
-      <ul class="nav-list">
-        <li><a href="index.html" aria-current="page">Home</a></li>
-        <li><a href="blog.html">Blog</a></li>
-        <li><a href="portfolio.html">Portfolio</a></li>
-        <li><a href="resume.html">Resume</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
+  <!-- Fonts (optional) -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Manrope:wght@400;600&display=swap"
+    rel="stylesheet">
+  <!-- Your site styles -->
+  <link rel="stylesheet" href="styles.css">
+</head>
 
+<body>
+  <nav class="navbar" aria-label="Primary">
+    <a href="index.html" class="logo">Annika Yaworski</a>
+    <ul class="nav-list">
+      <li><a href="index.html" aria-current="page">About</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="resume.html">Resume</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
 
-    <main>
-      <div class="page-title"><h1>Welcome to Annika’s Website</h1></div>
+  <main>
+    <header class="hero">
+      <h1 class="script-text">Portfolio</h1>
+      <p class="caps-label">LOREM IPSUM DOLOR SIT AMET CONSECTETUR</p>
+    </header>
 
-      <section class="about">
-        <figure class="about-image">
-          <div class="avatar-wrap">
-            <img src="profile photo.png" alt="Annika headshot">
-          </div>
-        </figure>
+    <section class="about-grid">
+      <div class="img-stack">
+        <img src="profile photo.png" alt="Annika headshot">
+      </div>
+      <div class="about-content">
+        <h2 class="script-text" style="font-size: 4rem;">About me</h2>
+        <p class="caps-label">HI, I'M ANNIKA</p>
+        <p>
+          I’m a Software Engineering student at <strong>Cal Poly, San Luis Obispo</strong>.
+          I’m originally from <strong>Centennial, Colorado</strong>, and I’ve always been passionate about how
+          technology can make everyday life more efficient and connected.
+        </p>
+        <p>
+          When I’m not coding, you’ll usually find me outside—at the gym, swimming,
+          tanning, or studying in the sunshine. I also love getting involved in my
+          community and finding ways to give back.
+        </p>
+      </div>
+    </section>
 
-        <div class="about-text">
+    <section class="dark-section">
+      <div class="dark-section-inner">
+        <h2 class="script-text" style="color: #fff; margin-bottom: 3rem;">Experience</h2>
+
+        <div class="client-block">
+          <h3>Software Development</h3>
+          <p>Project details and technical skills focused on building efficient, user-centric applications.</p>
         </div>
-      </section>
 
-
-        <div class="about-text">
-          <p>
-            Hi! I’m <strong>Annika Yaworski</strong>, a Software Engineering student at
-            <strong>Cal Poly, San Luis Obispo</strong>. I’m originally from
-            <strong>Centennial, Colorado</strong>, and I’ve always been passionate about how
-            technology can make everyday life more efficient and connected.
-          </p>
-          <p>
-            When I’m not coding, you’ll usually find me outside—at the gym, swimming,
-            tanning, or studying in the sunshine. I also love getting involved in my
-            community and finding ways to give back. In high school, I helped organize
-            events to support the homeless, elderly, and new students, and I hope to continue
-            blending my love for technology with service throughout my career.
-          </p>
+        <div class="client-block">
+          <h3>Community Leadership</h3>
+          <p>Experience in organizing events and giving back to the community through various initiatives.</p>
         </div>
-      </section>
-    </main>
+      </div>
+    </section>
 
-    <footer class="footer">
-      © 2025 Annika's Website • All Rights Reserved
-    </footer>
-  </body>
+    <section>
+      <h2 class="script-text" style="text-align: center; margin-bottom: 2rem;">Social Media</h2>
+      <div class="social-grid">
+        <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=500&auto=format&fit=crop" alt="Coding">
+        <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=500&auto=format&fit=crop"
+          alt="Outdoors">
+        <img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=500&auto=format&fit=crop" alt="Gym">
+        <img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=500&auto=format&fit=crop" alt="Work">
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © 2025 Annika's Website • All Rights Reserved
+  </footer>
+</body>
+
 </html>
