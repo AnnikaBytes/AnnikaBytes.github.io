@@ -2,20 +2,10 @@
 // At least two blogs
 var blogs = [
     {
-        title: "Hello World",
-        date: "10/16/2025",
-        description: "This is my first website and first blog post!",
-        image: "images/helloworld.png",
-        imageAlt: "A computer screen displaying 'Hello, World!'",
-        slug: "hello-world"
-    },
-    {
-        title: "What I Learned Building My First Website",
-        date: "10/16/2025",
-        description: "HTML, CSS, TypeScript, and deploying with GitHub Pages",
-        image: "",
-        imageAlt: "",
-        slug: "what-i-learned-building-my-first-website"
+        title: "Embracing the Craft",
+        date: "March 8, 2026",
+        description: "Lessons learned while building my first personal website and finding beauty in the details of software engineering.",
+        slug: "embracing-the-craft"
     },
 ];
 // Create a card and append to the container
