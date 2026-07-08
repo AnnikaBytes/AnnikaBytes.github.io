@@ -172,6 +172,16 @@ section {
   margin-bottom: 1rem;
 }
 
+.client-block h3 a {
+  text-decoration: none;
+  color: inherit;
+  transition: opacity 0.3s;
+}
+
+.client-block h3 a:hover {
+  opacity: 0.6;
+}
+
 /* Social Media Grid */
 .social-grid {
   display: grid;
